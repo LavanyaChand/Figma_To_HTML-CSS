@@ -1,0 +1,204 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Just center the frame on large screens; does not hard-code design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.canvas-root {
+  position: relative;
+  overflow: hidden;
+  width: 393px;
+  height: 852px;
+}
+
+
+.frame-175 {
+  width: 393px;
+  height: 852px;
+  position: relative;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 32px;
+}
+
+.home-indicator-1110 {
+  width: 393px;
+  height: 21px;
+  position: absolute;
+  left: 0px;
+  top: 831px;
+}
+
+.home-indicator-1111 { display: none; }
+
+.headline-1112 {
+  width: 154px;
+  height: 58px;
+  position: absolute;
+  left: 32.000000000000114px;
+  top: 170px;
+  color: rgba(54, 51, 65, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.60000228881836px;
+  letter-spacing: -0.96px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.frame-1321318736-1114 {
+  width: 329px;
+  height: 117px;
+  position: absolute;
+  left: 32.000000000000114px;
+  top: 252px;
+}
+
+.frame-1321318734-1115 {
+  width: 329px;
+  height: 58px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: 1px solid rgba(215, 215, 215, 1);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.headline-1116 {
+  width: 120px;
+  height: 18px;
+  position: absolute;
+  left: 16px;
+  top: 20px;
+  color: rgba(54, 51, 65, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.frame-1321318735-1117 {
+  width: 329px;
+  height: 59px;
+  position: absolute;
+  left: 0px;
+  top: 58px;
+  border: 1px solid rgba(215, 215, 215, 1);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.headline-1118 {
+  width: 69px;
+  height: 18px;
+  position: absolute;
+  left: 16px;
+  top: 20.5px;
+  color: rgba(192, 192, 192, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.frame-1120 {
+  width: 361px;
+  height: 46px;
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 662px;
+  background-image: linear-gradient(339.4287359211733deg, rgba(149, 34, 140, 1) 0%, rgba(58, 60, 179, 1) 100%);
+  border-radius: 62px;
+}
+
+.label-text-1123 {
+  width: 49px;
+  height: 22px;
+  position: absolute;
+  left: 156px;
+  top: 12px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.15px;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.frame-1125 {
+  width: 361px;
+  height: 46px;
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 720px;
+  background-color: rgba(225, 224, 230, 1);
+  border-radius: 62px;
+}
+
+.label-text-1126 {
+  width: 110px;
+  height: 22px;
+  position: absolute;
+  left: 125.5px;
+  top: 12px;
+  color: rgba(54, 51, 65, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.15px;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.headline-1127 {
+  width: 361px;
+  height: 37px;
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 778px;
+  color: rgba(54, 51, 65, 0.800000011920929);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.600000381469727px;
+  letter-spacing: -0.26px;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
+}

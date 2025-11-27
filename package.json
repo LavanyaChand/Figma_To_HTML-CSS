@@ -1,0 +1,29 @@
+{
+  "name": "figma-to-html",
+  "version": "1.0.0",
+  "description": "Converts Figma mocks into HTML/CSS",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "generate": "ts-node src/generate.ts"
+  },
+  "keywords": [
+    "figma",
+    "html",
+    "css",
+    "converter",
+    "design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
